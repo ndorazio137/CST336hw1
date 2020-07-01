@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #555652;
+    background-color: #CFB53B;
     width: 100%;
     height: 100%;
     min-width: 100%;
@@ -37,6 +37,7 @@ nav {
     padding: 0vh .5vw;
     letter-spacing: 2px; 
     font-size: 4vh;
+    color: black;
 }
 
 .top-menu nav a:hover {
@@ -46,17 +47,8 @@ nav {
     text-shadow: 0px 1px 0px #000000;
 }
 
-.top-menu nav a:visited {
-    color: #310D20; 
-}
-
-.top-menu nav a:active {
-    color: black;
-    padding: 0%;
-}
-
 .bottom-menu {
-    background-color: #555652;
+    background-color: #CFB53B;
 }
 
 .bottom-menu nav a {
@@ -69,11 +61,6 @@ nav {
 .bottom-menu nav a:hover {
     font-size: 1em;
     transition: .9s;
-    text-shadow: 0px 1px 0px #000000;
-}
-
-.bottom-menu nav a:visited {
-    color: #FFDF00; 
 }
 
 .bottom-menu nav a:active {
@@ -83,7 +70,7 @@ nav {
 .footer-text {
     font-size: .75em;
     text-align: center;
-    color: #310D20;
+    color: black;
     padding: 10px 10px;
 }
 
