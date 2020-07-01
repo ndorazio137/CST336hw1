@@ -22,7 +22,13 @@ header h1 {
     text-shadow: 0px 1px 2px #000000;
 }
 
-main, nav, footer{
+main {
+    display: flex;
+    font-family: 'Rajdhani', sans-serif;
+     font-size: 3vh;
+}
+
+nav, footer{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -45,6 +51,31 @@ nav {
     font-size: 5vh;
     transition: .9s;
     text-shadow: 0px 1px 0px #000000;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    max-width: 90vw;
+    margin: 0vh 10vw;
+}
+
+.grid-items {
+    text-align: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+#sources {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#source-header {
+    text-decoration: underline;
 }
 
 .bottom-menu {
