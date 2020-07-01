@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #5c677d;
+    background-color: #555652;
     width: 100%;
     height: 100%;
     min-width: 100%;
@@ -56,7 +56,7 @@ nav {
 }
 
 .bottom-menu {
-    background-color: #5c677d;
+    background-color: #555652;
 }
 
 .bottom-menu nav a {
@@ -67,14 +67,13 @@ nav {
 }
 
 .bottom-menu nav a:hover {
-    color: #D4AF37;
     font-size: 1em;
     transition: .9s;
     text-shadow: 0px 1px 0px #000000;
 }
 
 .bottom-menu nav a:visited {
-    color: #dee2e6; 
+    color: #FFDF00; 
 }
 
 .bottom-menu nav a:active {
