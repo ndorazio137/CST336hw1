@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5c677d;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 10rem;
+}
+
+header h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    text-shadow: 0px 1px 2px #000000;
+}
+
+main, nav, footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100vw;
+}
+
+.top-menu nav a {
+    padding: 0vh .5vw;
+    letter-spacing: 2px; 
+}
+
+.top-menu nav a:hover {
+    border-bottom: 2px black solid;
+    font-size: 1.2em;
+    transition: .9s;
+    text-shadow: 0px 1px 0px #000000;
+}
+
+.top-menu nav a:visited {
+    color: #310D20; 
+}
+
+.top-menu nav a:active {
+    color: black;
+    padding: 0%;
+}
+
+.bottom-menu {
+    background-color: #5c677d;
+}
+
+.bottom-menu nav a {
+    padding: 0vh .5vw;
+    font-size: .75em;
+    color: green;
+    text-shadow: 0px 1px 2px #000000;
+}
+
+.bottom-menu nav a:hover {
+    font-size: 1em;
+    transition: .9s;
+    text-shadow: 0px 1px 0px #000000;
+}
+
+.bottom-menu nav a:visited {
+    color: white; 
+}
+
+.bottom-menu nav a:active {
+    color: black;
+    padding: 0%;
+}
+
+.footer-text {
+    font-size: .75em;
+    text-align: center;
+    color: #310D20;
+}
+
+
